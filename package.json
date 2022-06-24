@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^34.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^34.1.0",
+    "@ckeditor/ckeditor5-dev-utils": "^30.1.4",
+    "@ckeditor/ckeditor5-editor-decoupled": "^34.0.0",
+    "@ckeditor/ckeditor5-export-pdf": "^34.0.0",
+    "@ckeditor/ckeditor5-export-word": "^34.0.0",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@firebase/firestore": "^3.4.9",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.3",
+    "@next-auth/firebase-adapter": "^0.1.3",
+    "@radix-ui/react-dropdown-menu": "^0.1.6",
+    "axios": "^0.27.2",
+    "ckeditor5-build-classic-nextjs": "^29.5.26",
+    "css-loader": "^5.2.7",
+    "draft-js": "^0.11.7",
+    "firebase": "^8.10.1",
+    "immutable": "^3.8.2",
+    "next": "latest",
+    "next-auth": "^3.29.1",
+    "next-themes": "^0.2.0",
+    "nodemailer": "^6.7.5",
+    "pdfmake": "^0.2.5",
+    "postcss-loader": "^4.3.0",
+    "pusher-js": "^7.1.1-beta",
+    "raw-loader": "^4.0.2",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-loader-spinner": "^4.0.0",
+    "react-toastify": "^9.0.1",
+    "style-loader": "^1.3.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
